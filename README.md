@@ -1,4 +1,4 @@
-# This is an e-commerce website and it is under development.
+# This is ShoppingDeal an e-commerce website and it is under development.
 
 <!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
