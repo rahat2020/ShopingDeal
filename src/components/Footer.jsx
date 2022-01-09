@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from '@material-ui/icons';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     display:flex;
     margin-bottom:20px;
     margin-top: 20px;
+    ${mobile({ flexDirection: "column" })}
 `;
 const Left = styled.div`
     flex:1;
@@ -38,6 +40,8 @@ const SocialIcon = styled.div`
 
 const Center = styled.div`
     flex:1;
+    padding:20px;
+    ${mobile({ display: "none" })}
 `;
 
 const Title = styled.h3`
@@ -74,7 +78,7 @@ export default function Footer() {
     return (
         <Container>
             <Left>
-                <Logo>Rahat.Deal</Logo>
+                <Logo>ShoppingDeal</Logo>
                 <Desc>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nostrum placeat voluptatem sequi quod fugit ratione officiis dolor dolorum quisquam?
                 </Desc>

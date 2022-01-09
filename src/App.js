@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import ProductsList from './pages/ProductsList';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import Cart from './pages/Cart';
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
       {/* <Home/> */}
       {/* <ProductsList/> */}
       {/* <Product/> */}
-      <Register/>
-      {/* <Login/> */}
+      {/* <Register/> */}
+      <Login/>
+      {/* <Cart/> */}
     </>
   )
 }

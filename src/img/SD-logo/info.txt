@@ -1,0 +1,11 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Shrikhand-Regular
+font link: https://fonts.google.com/specimen/Shrikhand
+font author: Jonny Pinhorn
+font author site: https://twitter.com/jonpinhorn_type
+
+
+{"bg":"transparent","icon-gradient-0":"#21690F","icon-gradient-1":"#88C848","font":"#000000","slogan":"#141414"}
+      
